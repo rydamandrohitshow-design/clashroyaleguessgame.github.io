@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Highly Pixellated Card Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Un-Pixellate the Clash Royale Card!</h1>
+    <div id="game-container">
+        
+        <div id="image-window"> 
+            <img id="card-image" src="" alt="Pixellated Clash Royale Card">
+        </div>
+        
+        <p id="guess-count">Incorrect Guesses: 0</p>
+
+        <input type="text" id="user-guess" placeholder="What is the card name?">
+        <button id="guess-button">Guess!</button>
+
+        <p id="feedback"></p>
+        <button onclick="startGame()">Start New Game</button>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
